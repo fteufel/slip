@@ -22,7 +22,7 @@ from absl.testing import absltest
 from absl.testing import parameterized
 import numpy as np
 
-import potts_model
+import .potts_model
 
 
 class PottsModelTest(parameterized.TestCase):

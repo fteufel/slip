@@ -21,10 +21,10 @@ from absl.testing import parameterized
 import numpy as np
 from scipy.special import comb
 
-import potts_model
-import sampling
-import tuning
-import utils
+import .potts_model
+import .sampling
+import .tuning
+import .utils
 
 
 class TuningParamsTest(parameterized.TestCase):

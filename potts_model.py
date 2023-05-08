@@ -20,7 +20,7 @@ from typing import Sequence
 
 import numpy as np
 
-import utils
+import .utils
 
 
 def _get_shifted_weights(weight_matrix: np.ndarray,

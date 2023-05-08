@@ -22,8 +22,8 @@ from absl.testing import absltest
 from absl.testing import parameterized
 import numpy as np
 
-import experiment
-import utils
+import .experiment
+import .utils
 
 
 class ExperimentTest(parameterized.TestCase):

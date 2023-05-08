@@ -19,8 +19,8 @@ from absl.testing import absltest
 from absl.testing import parameterized
 import numpy as np
 
-import utils
-import potts_model
+import .utils
+import .potts_model
 
 
 class UtilsTest(parameterized.TestCase):
