@@ -19,7 +19,7 @@ from typing import Optional
 
 import numpy as np
 
-import .potts_model
+from . import potts_model
 
 
 class Assay(abc.ABC):

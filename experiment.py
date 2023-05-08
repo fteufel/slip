@@ -28,14 +28,14 @@ from scipy import stats
 from sklearn import metrics as skm
 import tensorflow as tf
 
-import .epistasis_selection
-import .metrics
-import .models
-import .potts_model
-import .sampling
-import .solver
-import .tuning
-import .utils
+from . import epistasis_selection
+from . import metrics
+from . import models
+from . import potts_model
+from . import sampling
+from . import solver
+from . import tuning
+from . import utils
 
 
 def get_fitness_df(sequences: np.ndarray,

@@ -21,8 +21,8 @@ from absl.testing import parameterized
 
 import numpy as np
 
-import .models
-import .utils
+from . import models
+from . import utils
 
 
 class ModelsTest(parameterized.TestCase):

@@ -21,7 +21,7 @@ from absl.testing import parameterized
 import numpy as np
 import pandas as pd
 
-import metrics
+from . import metrics
 
 
 class MetricsTest(parameterized.TestCase):

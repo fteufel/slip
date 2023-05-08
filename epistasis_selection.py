@@ -20,10 +20,10 @@ from typing import Iterable, List, Sequence, Tuple
 
 import numpy as np
 
-import .potts_model
-import .utils
+from . import potts_model
+from . import utils
 
-Mutation = .utils.Mutation
+Mutation = utils.Mutation
 
 
 def combine_k_rounds(num_rounds: int,

@@ -22,7 +22,7 @@ import numpy as np
 
 from scipy.spatial import distance as spd
 
-import .sampling
+from . import sampling
 
 
 class SamplingTest(parameterized.TestCase):

@@ -24,8 +24,8 @@ from sklearn import ensemble
 from sklearn import linear_model
 from sklearn import svm
 
-import .solver
-import .utils
+from . import solver
+from . import utils
 
 
 class RecombinationSolverTest(parameterized.TestCase):

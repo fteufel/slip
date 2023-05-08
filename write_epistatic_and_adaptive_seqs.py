@@ -6,8 +6,8 @@ from typing import Dict, Sequence, Union
 
 import numpy as np
 
-import epistasis_selection
-import potts_model
+from . import epistasis_selection
+from . import potts_model
 
 
 

@@ -5,8 +5,8 @@ from absl.testing import parameterized
 
 import numpy as np
 
-import .epistasis_selection
-import .potts_model
+from . import epistasis_selection
+from . import potts_model
 
 
 class SelectionTest(parameterized.TestCase):
